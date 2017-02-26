@@ -1,0 +1,83 @@
+{
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "React boilerplate with react-hot-loader-3 and webpack-2",
+  "author": "Filin Sergey <me@ferg.in> (http://github.com/ferggren)",
+  "license": "MIT",
+  "homepage": "https://github.com/ferggren/react-hot-boilerplate",
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferggren/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "javascript",
+    "react",
+    "reactjs",
+    "webpack",
+    "react-hot-loader",
+    "react-hot-loader-3",
+    "boilerplate",
+    "react-boilerplate",
+    "react-hot-boilerplate",
+    "hot",
+    "webpack2",
+    "scss",
+    "eslint"
+  ],
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-plugin-transform-react-display-name": "^6.5.0",
+    "babel-polyfill": "^6.23.0",
+
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-babel": "^4.0.0",
+
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+
+    "css-loader": "^0.26.1",
+    "exports-loader": "^0.6.3",
+    "file-loader": "*",
+    "imports-loader": "^0.6.5",
+    "json-loader": "*",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "react-redux": "^5.0.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "node-sass": "^4.5",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "NODE_ENV='production' WEBPACK_MODE='build' node build.js",
+    "dev-watch": "NODE_ENV='dev' WEBPACK_MODE='watch' node build.js",
+    "dev-server": "NODE_ENV='dev' WEBPACK_MODE='server' node build.js",
+    "profile": "NODE_ENV='production' WEBPACK_MODE='profile' node build.js"
+  }
+}
