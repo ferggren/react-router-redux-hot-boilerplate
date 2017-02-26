@@ -10,7 +10,6 @@ npm i
 ```
 
 ### Usage (dev-server)
-`build.js` automatically adds hot-module to all entry points when running in dev-server mode.
 
 ```
 npm run dev-server
@@ -18,7 +17,7 @@ open http://localhost:8081
 edit src/components/app.js
 ```
 
-All the changes will appear without reloading the browser  
+All the changes will appear without reloading the browser. `build.js` automatically adds hot-module to all entry points when running in dev-server mode.
 
 ### Building
 
