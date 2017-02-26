@@ -50,7 +50,7 @@ You can change build configuration in `build.js`
 * `OUTPUT_MEDIA` output media name
 * `EXTRACT_CSS` if true, css will be extracted into `OUTPUT_CSS`. if false - included into `OUTPUT_JS`
 
-For example you want to change fonts public path.
+For example you want to change fonts public path from `/assets/` to `/assets/fonts/`:
 
 ```
 mkdir ./public/assets/fonts/
