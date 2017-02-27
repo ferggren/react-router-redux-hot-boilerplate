@@ -117,7 +117,7 @@ if (WEBPACK_MODE === 'server') {
 }
 
 // profiler
-if (WEBPACK_MODE === 'profile') {
+if (WEBPACK_MODE === 'profiler') {
   compiler.run((err, stats) => {
     if (err) throw new Error(err);
     console.log('%j', stats.toJson());

@@ -63,11 +63,6 @@
     
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2",
-    "react-redux": "^5.0.2",
-    "react-router-redux": "^4.0.8",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0",
 
     "extract-text-webpack-plugin": "^2.0.0-beta",
     "node-sass": "^4.5",
@@ -78,6 +73,6 @@
     "build": "NODE_ENV='production' WEBPACK_MODE='build' node build.js",
     "dev-watch": "NODE_ENV='dev' WEBPACK_MODE='watch' node build.js",
     "dev-server": "NODE_ENV='dev' WEBPACK_MODE='server' node build.js",
-    "profile": "NODE_ENV='production' WEBPACK_MODE='profile' node build.js"
+    "profiler": "NODE_ENV='production' WEBPACK_MODE='profiler' node build.js"
   }
 }

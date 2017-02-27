@@ -30,10 +30,10 @@ bundle files will appear in ./public/assets/
 
 This boilerplate includes React-friendly ESLint configuration with Airbnb style guideline. Eslint runs automatically on each build.
 
-### Profile
+### Profiling
 
 ```
-npm --silent run profile > profile
+npm --silent run profiler > profile
 upload file to http://webpack.github.io/analyse/
 ```
 
