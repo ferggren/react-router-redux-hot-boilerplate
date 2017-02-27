@@ -13,9 +13,7 @@ const NODE_ENV = process.env.NODE_ENV || 'production';
 const NODE_MODE = 'client';
 
 // config
-const WEBPACK_ENTRY = {
-  app: WEBPACK_MODE === 'server' ? 'app-hot' : 'app',
-};
+const WEBPACK_ENTRY = { app: ['app'] };
 const PUBLIC_PATH = '/assets/';
 const CONTENT_BASE = './public';
 const SOURCE_PATH = './src';
