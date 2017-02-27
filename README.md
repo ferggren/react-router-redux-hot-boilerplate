@@ -21,7 +21,7 @@ All the changes will appear without reloading the browser. `build.js` automatica
 
 ### Paths
 
-* `src/routes/` Routes config
+* `src/routes/` Routes
 * `src/routes/index.js` Routes config
 * `src/actions/` Redux actions
 * `src/reducers/` Redux reducers
