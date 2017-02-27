@@ -1,7 +1,7 @@
-react-hot-boilerplate
+react-router-redux-hot-boilerplate
 =====================
 
-High customizable production-ready environment with React live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
+High customizable production-ready environment with React-router, Redux and React live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
 
 ### Installation
 
@@ -9,15 +9,29 @@ High customizable production-ready environment with React live-editing. Live edi
 npm i
 ```
 
-### Usage (dev-server)
+### Usage
 
 ```
 npm run dev-server
 open http://localhost:8081
-edit src/components/app.js
+edit src/routes/main/main.js
 ```
 
 All the changes will appear without reloading the browser. `build.js` automatically adds hot-module to all entry points when running in dev-server mode.
+
+### Paths
+
+* `src/routes/` Routes config
+* `src/routes/index.js` Routes config
+* `src/actions/` Redux actions
+* `src/reducers/` Redux reducers
+* `src/reducers/index.js` Redux reducers config
+* `src/components/app-wrapper/app-wrapper.jsx` Wrapper to all the routes
+
+
+### Redux DevTool
+
+Also you may want to install useful extension `Redux DevTool` – live-editing time travel environment for Redux. Boilerplate has everything ready, so you only need to install the extension.
 
 ### Building
 

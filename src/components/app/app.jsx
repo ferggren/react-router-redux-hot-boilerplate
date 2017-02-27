@@ -1,26 +1,20 @@
 'use strict';
 
 import React from 'react';
-import './styles';
+import { Router, browserHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import routes from 'routes';
 
-const propTypes = {
-};
-
-const defaultProps = {
-
-};
-
-class App extends React.PureComponent {
+class App extends React.Component {
   render() {
     return (
-      <div className="hello-world">
-        Hello world!
-      </div>
+      <Provider store={window.REDUX_STORE}>
+        <Router history={browserHistory}>
+          {routes}
+        </Router>
+      </Provider>
     );
   }
 }
-
-App.propTypes = propTypes;
-App.defaultProps = defaultProps;
 
 export default App;

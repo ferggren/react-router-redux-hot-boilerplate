@@ -8,8 +8,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import onload from 'libs/onload';
 import App from 'components/app';
+import configureStore from 'reducers/';
 
 onload(() => {
+  const store = configureStore(window.REDUX_INITIAL_STATE || {});
+  
+  window.REDUX_INITIAL_STATE = null;
+  window.REDUX_STORE = store;
+
   if (NODE_ENV === 'dev') {
     const AppContainer = require('react-hot-loader').AppContainer;
 
