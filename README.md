@@ -1,7 +1,7 @@
 react-hot-boilerplate
 =====================
 
-High customizable production-ready environment with React live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
+High customizable production-ready React environment with live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
 
 ### Installation
 
