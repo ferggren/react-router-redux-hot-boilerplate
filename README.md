@@ -1,7 +1,7 @@
-react-router-redux-hot-boilerplate
+React (react-router, redux) universal hot boilerplate
 =====================
 
-High customizable production-ready environment with React-router, Redux and React live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
+High customizable production-ready React (react-router, redux) environment with live-editing. Live editing (webpack-dev-server and react-hot-loader) are included only when running in dev-server mode.
 
 ### Installation
 
